@@ -65,3 +65,11 @@ let equipoQA = ["Carlos", "Maria"];
 
 let equipoCompleto = equipoDev.concat(equipoQA);
 console.log(equipoCompleto);
+
+//Ejercicio 10: Añadir al Carrito (concat – Inmutable)
+let carrito = ["Manzana"];
+
+let nuevoCarrito = carrito.concat("Pera");
+
+console.log(carrito); 
+console.log(nuevoCarrito);  
