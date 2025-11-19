@@ -125,3 +125,11 @@ let nuevaFilaConJorge = [
 
 console.log(fila2);
 console.log(nuevaFilaConJorge);
+
+//Ejercicio 17: Reemplazar sin Mutar (map)
+let tablero = ["X", "O", "X"];
+
+let nuevoTablero = tablero.map((v, i) => i === 1 ? "X" : v);
+
+console.log(tablero);
+console.log(nuevoTablero);
