@@ -146,3 +146,11 @@ let productosCaros = productos2
   .map(p => p.nombre);
 
 console.log(productosCaros); 
+
+//Ejercicio 19: Añadir al Inicio (concat o spread)
+let feed = ["Noticia 1", "Noticia 2", "Noticia 3"];
+
+let nuevoFeed = ["Noticia Urgente", ...feed];
+
+console.log(feed);
+console.log(nuevoFeed);
