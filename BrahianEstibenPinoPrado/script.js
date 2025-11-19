@@ -30,3 +30,9 @@ let productos = [
 
 let enStock = productos.filter(p => p.stock > 0);
 console.log(enStock);
+
+//Ejercicio 5: Suma Total de Ventas (reduce)
+let ventas = [150, 300, 100, 50];
+
+let totalVentas = ventas.reduce((acum, v) => acum + v, 0);
+console.log(totalVentas);
