@@ -154,3 +154,16 @@ let nuevoFeed = ["Noticia Urgente", ...feed];
 
 console.log(feed);
 console.log(nuevoFeed);
+
+//Ejercicio 20: Desafío de Puntuación (Combinado)
+let puntuaciones = [50, 85, -10, 100, 0, 30];
+
+let validas = puntuaciones.filter(p => p >= 0);
+
+let bonificadas = validas.map(p => p + 10);
+
+let totalPuntos = bonificadas.reduce((acc, p) => acc + p, 0);
+
+console.log(validas);
+console.log(bonificadas);
+console.log(totalPuntos);
