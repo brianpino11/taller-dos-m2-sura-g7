@@ -79,3 +79,13 @@ let roles = ["USER", "EDITOR"];
 
 console.log(roles.includes("ADMIN"));  
 console.log(roles.includes("EDITOR")); 
+
+//Ejercicio 12: Encontrar Usuario (find)
+let usuarios2 = [
+  { id: 101, nombre: "Ana" },
+  { id: 102, nombre: "Luis" },
+  { id: 103, nombre: "Carlos" }
+];
+
+let usuarioLuis = usuarios2.find(u => u.id === 102);
+console.log(usuarioLuis);
