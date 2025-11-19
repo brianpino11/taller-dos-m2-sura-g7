@@ -133,3 +133,16 @@ let nuevoTablero = tablero.map((v, i) => i === 1 ? "X" : v);
 
 console.log(tablero);
 console.log(nuevoTablero);
+
+//Ejercicio 18: Combo (filter + map)
+let productos2 = [
+  { nombre: "Papas", precio: 2 },
+  { nombre: "Carne", precio: 15 },
+  { nombre: "Leche", precio: 3 }
+];
+
+let productosCaros = productos2
+  .filter(p => p.precio > 4)
+  .map(p => p.nombre);
+
+console.log(productosCaros); 
